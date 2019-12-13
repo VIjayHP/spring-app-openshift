@@ -15,7 +15,7 @@ public class MongoDBConfig {
 	 CommandLineRunner  commandLineRunner(UserRepository userRepository)
 	 {
 		 return strings->{
-			    userRepository.save(new User(1,"bhaskar",221310L));
+			    userRepository.save(new User(1,"Vijay",221310L));
 				userRepository.save(new User(2,"sunita",121310L));
 				userRepository.save(new User(3,"shreyas",1021310L));
 		
