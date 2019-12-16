@@ -9,7 +9,7 @@ public class User {
 	private Integer id;
 	private String name;
 	private Long sal;
-	public User(Integer id, String name, Long sal) {
+	public User(Integer id, String name, Integer sal) {
 		super();
 		this.id = id;
 		this.name = name;
